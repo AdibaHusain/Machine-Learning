@@ -1,1 +1,1 @@
-Machine Learning and AI karna hi padegaa
+Engineers of this decade cannot survive without learning AI/ML!!!
