@@ -11,3 +11,6 @@ TIME SERIES ANALYSIS
 PANDAS SERIES:
 A Series is one dimensional labeled array capable of holding any data type. The axis labels are collectively called index.
 Series is represented in vertical manner
+
+PANDAS DATAFRAMES
+When you combine multiple series then dataframes are formed.
