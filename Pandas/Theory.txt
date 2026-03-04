@@ -1,0 +1,13 @@
+ WHY PANDAS?
+- DATA CLEANING
+-DATA ANALYZE
+-DATA MANIPULATE
+-DATA TRANSFORMATION
+-DATA AGGREGATION
+-FILE HANDLING
+-DATA FILTERING AND SELECTION
+TIME SERIES ANALYSIS
+
+PANDAS SERIES:
+A Series is one dimensional labeled array capable of holding any data type. The axis labels are collectively called index.
+Series is represented in vertical manner
