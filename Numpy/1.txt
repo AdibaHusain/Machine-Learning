@@ -1,0 +1,17 @@
+NOTEBOOKS:
+We are working with jupyter notebook
+To run and go to next cell in notebook then do: Shift+Enter.
+So see the functionality of a function do: Shift+Tab
+
+NUMPY:
+Python was always weak in arrays before numpy.
+
+NUMPY ARRAYS:
+1. Numpy Arrays Vs List-
+  Mixed allowed in list but not in arrays
+  List is slower than arrays
+  Memory efficiency is low in list in comparison of arrays
+
+
+  
+
