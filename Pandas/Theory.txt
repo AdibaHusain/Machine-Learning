@@ -14,3 +14,11 @@ Series is represented in vertical manner
 
 PANDAS DATAFRAMES
 When you combine multiple series then dataframes are formed.
+
+FILES THAT ARE ALLOWED IN DATAFRAMES FOR ACCESSING
+1-CSV (Comma Separated Values)
+2-Excel
+3-JSON
+4-TSV
+5-HTML Tables
+6-SQL Database
