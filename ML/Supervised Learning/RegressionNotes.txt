@@ -1,0 +1,55 @@
+REGRESSION: These algo are used in continuous values prediction.
+It helps hwo one thing changes when something else changes.
+
+HOW LINEAR REGRESSION WORKS?
+1-Create scatter plot with x axis as input variable and y axis as output variable
+2-Now you have scattered values on the plot , now we will create a line in mid of the scattered line named as best fit line(we will see how we will make it later on)
+3- Then you can predict any new value by marking its variable on x axis and y axis can be predicted.
+4- Formula: y=mx+b
+   m - slope
+   b - intercept
+   x - data point
+   y - prediction
+
+Hume slope aur b given rahgea and at certain point x we can predict the value of y with the help of best fit line.
+Slope ka matlab agar m=0.5 hai matlab agar tum 1unit x aage jaaoge toh toh uska 0.5 hi aage y pe jaaoge.
+
+RESIDUAL ERROR:
+Difference between actual data points and predicted data points.
+HUmare paas data points hai toh hum for different points of m and b hum best fit line banaynge aur har line ka residual error nikalenge aur jiska error sabse kam hua wahi best fit line hogi
+
+COST FUNCTION:
+summation of square of diff between actual and predicted value 
+(refer pdf)
+has best fit line ke liye alag cost function aata hai
+YOU HAVE TO MINIMIZE THE COST FUNCTION BY CHANGING THE VALUE OF m AND b.
+
+GRADIENT DESCENT:
+ab hum humare cost function aur m ke usme apna ek graph banate hain for the different value of m hum cost function nikal ke ek graph banate hain
+aur voh ek u shape curve me dikhta hai calledd gradient descent curve. 
+Aur jo smallest value aati hai of cost function yhat is called GLOBAL MINIMA.
+
+REPEAT CONVERGENCE THEORUM(FOR FINDING GRADIENT DESCENT)
+for this we use Learning rate.
+in proportionality we always keep learning rate lower because higher values of learning can make the cost function value fluctuate very fastly.
+with lower learning rate we can easily reach global minima
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CLASSIFICATION: These algo are used in values in yes no or binary.
+
