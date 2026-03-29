@@ -21,6 +21,8 @@ HUmare paas data points hai toh hum for different points of m and b hum best fit
 COST FUNCTION:
 summation of square of diff between actual and predicted value 
 (refer pdf)
+Theta0 = m, theta1 =b
+h(theta) humara 
 has best fit line ke liye alag cost function aata hai
 YOU HAVE TO MINIMIZE THE COST FUNCTION BY CHANGING THE VALUE OF m AND b.
 
@@ -34,15 +36,39 @@ for this we use Learning rate.
 in proportionality we always keep learning rate lower because higher values of learning can make the cost function value fluctuate very fastly.
 with lower learning rate we can easily reach global minima
 
+MODEL BUILDING:
+Hum apne 100% data ko train aur test me divide karenge
+jaise 80 20
+80% data se hum model ko train karenge
+baaki bacha hua 20 ka hume original ans pata hai toh hum uspe test karke predicted-actual se apni accuraccy dekh sakte hain
+Hum scikit learn se train test se split krke karenge.
 
+TRAIN TEST IDEA:
+hum input data ko X_train X_test aur output data ko Y_train Y_test me divide karte hain
+X train aur Y train se train karate hain model ko aur phir x test ko input dekar predictions nikal ke y test se compare karte hain
 
+PERFORMANCE MATRIX:
 
+R^2=1-(Sum of residual/sum of total)
+sum of residual=summation of square of difference of predicted - actual values
+sum of total = summation of square of difference of predicted and mean value. 
+Result will always be free and in decimal
 
+Adjusted R^2:
+1- Isme feature dependency aa jaati hai jaise ek koi aisa feature bhi humne input me rakha hai jo bilkull bhi dependent nhi hai op pe toh humari adjusted r^2 value kam ho jaayegi isse hume pata lagta hai toh take only relevant features only
 
+OVERFITTING AND UNDERFITTING
 
+OVERFITTING
+OVERFITTING TAB HOTI HAI JAB TRAINING ME AAPKA MODEL BHT ACHA PERFORM KARTA HAI CALLED (LOW BIAS)
+AND TESTING KE TIME PE BHT GANDA PEROFORM KARTA HAI CALLED (HIGH VARIANCE)
 
+UNDERFITTING
+TRAINING ME BHI BEKAR RESULT AUR TESTING ME BHI BEKAR RESULT (HIGH BIAS AND HIGH VARIANCE)
 
-
+PERFECT MODEL:
+LOW VARIANCE AND LOW BIAS
+To make a perfect model use RIDGE AND LASSO REGRESSION
 
 
 
