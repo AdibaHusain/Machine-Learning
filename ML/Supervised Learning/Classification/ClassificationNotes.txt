@@ -1,0 +1,32 @@
+CLASSIFICATION ALGORITHMS:(predict a element belongs to which class)
+
+1. LOGISTICS REGRESSION(made from linear regression but a classification algo):
+Binary classififcation is done
+not a continuous values only classes
+soo starting by taking the original idea of linear regression only we used to create a best fit line for the same using h theta(x)=theta 0 +theta1 x1
+The points with values less than 50% of the best fit line will be considered as 0 otherwise 1.
+But using a straight line as the best fit line is not feasible in case of logistics regression because:
+i- Outliers:
+best fit line is generally created in between the data points soo if there is a outlier than the line would shift to thst side this will change the desired outputs for the data points.
+TO PREVENT ALL THESE THINGS WE SQUASH THE LINE (S SHAPE CURVE)
+
+To make the straight line into s shape curve we will use SIGMOID ACTIVATION FUNCTION 
+h theta(x)= 1/1+e^-z
+z=(theta 0 +theta1*x1)
+h theta(x)= predicted value
+e=Eulers number (2.71828) Gives smooth curve
+
+Jaise hum linear regression me prediction acha karne ke liye COST FUNCTION ka use karte the waise hi idhr hum LOG LOSS FUNCTION ka use karenge.
+
+LOG LOSS (Binary cross Entropy)
+if predicted val 0.99 and actual 1 , VERY LESS LOSS
+if predicted val 0.01 and actual is 1 , VERY HIGH LOSS
+For high loss LOG LOSS fun do a panalty
+
+LOGG LOSS= -1/m Summation from i=1 too m [actual value log(predicted value)+ (1-actual val) log(1-predicted val)]
+m=no of samples
+y^i=actual label
+y^=predicted prob
+
+h theta(x)=theta 0 +theta1*x1
+PHIR HUM ISKA GRAPH BANAYE CONSIDERING theta 0=0 TOH ek GRAIENT DESCENT CURVE BANEGA JISME EK GLOBAL MINIMA POINT HOGA JISME LEASE LOSS HOGA.
