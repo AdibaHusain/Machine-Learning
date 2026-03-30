@@ -1,0 +1,18 @@
+KNN(K NEAREST NEIGHBOUR)
+can also be used for continuous var prediction and not only classification
+STEPS:
+1. Define k value (HYPER PARAMETER)
+2. Calculate distance from all points (euclidian distance)
+3. sort the distance
+4.Majority count (if 3 yes 2 no then output yes)
+
+SUPPOSE IT WAS NOT A CATEGORICAL DATA THEN WE WOULD HAVE FIND OUT THE MEAN VALUE OF THE NEIGHBOURS
+
+FOR K:
+must be odd value(same amount of yes no ho sakte hain even me toh decision making would be difficult)
+
+KNN REQUIRES FEATURE SCALING BECAUSE THE DISTANCE PLAYS A CRUCIAL ROLE
+
+from sklearn.neighbors import KNeighborsClassifier
+knn_model = KNeighborsClassifier(n_neighbors= 5)
+knn_model.fit(X_train_scaled,y_train)
