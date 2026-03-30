@@ -1,0 +1,31 @@
+EVALUATION FOR CLASSIFICATION MODELS:
+
+1. CONFUSION MATRIX:
+
+if prediction is 1 and actual is 1 then it is TRUE POSITIVE
+if prediction is 1 and actual is 0 then it is FALSE POSITIVE (TYYPE 2 ERROR)
+if prediction is 0 and actual is 1 then it is FALSE NEGATIVE (TYPE 1 ERROR)
+if prediction is 0 and actual is 0 then it is TRUE NEGATIVE
+
+
+From confusion matrix we can find:
+
+ACCURACY:
+the % of correct predictions.
+TP+TN/TP+TN+FP+FN
+
+2. PRECISION:
+out of all predicted positive how many were actually positive
+TP/TP+FP 
+Used when false positive are costly(spam mail prediction)
+
+3. RECALL:
+OUT OF ALL ACTUAL POSITIVE HOW MANY DID WE CORRECTLY PREDICTED.
+TP/TP+FN
+Used when false negative are costly(disease prediction)
+(kisi ko koi bemari thi par usne galat predict krke bol diya koi bemari nhi thi)
+
+4. F1 SCORE:
+Harmonic mean of precision and recall
+2*precision*recall/precision+recall
+Used when you want balance between precision and recall
