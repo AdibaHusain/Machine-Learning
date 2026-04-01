@@ -1,0 +1,20 @@
+DECISION TREES:
+In here we have root node and leaf nodes.
+We have multiple features soo the decision of current root node will be decided by the help of information gain and entropy.
+Like you have 4 features:
+1- Outlook
+2- Temp
+3- Humidity
+4- Wind
+Play is our decision to be made (either yes or no)
+Now we will dinf IE for each featyure and the feature with max IE will be selected as our root feature
+First we will dinf total prob of yes and no.
+like 9 yes 4 no.
+9/13 for yes and 4/13 for no
+
+To find IG we will find Entropy of each characteristic of the feature(outlook- sunny, overcast,rain)
+Entropy(S)=-P(YES)logbase2(P(yes))-P(NO)logbase2(P(no))
+Saari characteristic ki entropy nikal lo.
+IG(outlook)=entropy(s)(total)-[prob of suuny*entropy of sunny+prob of rain*entropy of rain..]
+
+WE NEED TO PERFORM FEATURE SCALING
