@@ -1,0 +1,15 @@
+NAIVE BAYES:
+
+There are two types of events
+1- Independent Variable :: One event dosen't depend on the other one
+Eg. rolling of dice 2 times dosen't dependent on each other
+2 - Dependent Variable :: One event depend on the other one
+Eg. pulling up a card from the deck of cards will change the total numbers of card in the next event.
+Conditional Prob:
+P(A and B)=P(A)*P(B/A)
+
+Bayes Theorum:
+P(A/B)=P(A)*P(B/A)/P(B)
+Like there are many inputs:(refer the pdf)
+YES: P(Y/x1 x2 x3 x4)= P(y)*P(x1/y)*P(x2/y)*P(x3/y)*P(x4/y)/P(x1)*P(x2)*P(x3)*P(x4)
+Similarly for NO.
