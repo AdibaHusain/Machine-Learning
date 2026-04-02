@@ -1,0 +1,30 @@
+Support Vector Machine:(binary classifier)
+It is a classification algorithm which can classify an object between 2 classes.
+It consist of a hyperplane which separate the classes into parts.
+Depending on the data we need to increase the dimensions of SVM in order to make the data linearly separable (we achieve this using kernals) and one dimension less hyper plane is made for it.
+The nearest points to the hyper plane of the no. of classes are called the SUPPORT VECTORS.
+and we make a line passing through it called MARGIN.
+distance between the margin and and the hyper plane is called the MARGIN DISTANCE.
+We have a equation for it:
+w*x+b
+w= weight
+x=particular point
+b=bias
+
+w*x+b , if >=1 then class 1 
+w*x+b , if <0 then class 0 
+
+2D mein → line
+3D mein → plane
+Higher dimensions → hyperplane
+
+Kernel ka kaam:
+data ko higher dimension mein map karna taaki wo linearly separable ho jaaye
+
+Matlab:
+
+Original space mein messy data 
+Kernel ke baad → clean separation possible 
+most common kernal : RBF Kernel (Radial Basis Function)
+Non-linear data ke liye best
+Gaussian distribution use karta h
