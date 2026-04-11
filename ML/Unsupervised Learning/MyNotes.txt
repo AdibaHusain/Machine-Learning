@@ -1,0 +1,28 @@
+Model TUNING:
+choosing the best hyper parameters for the model to work best on unseen data..
+
+CROSS VALIDATION:
+it is a technique where to cross verify our model we continuosly change our training testing data for the verification of our model if it is working fine with different set of data.
+We can use k fold cross validation:
+where like value of k=5 and in first iteration starting 4 part goes to training and one for testing
+in next iteration first two and 4th for training and 3th part testing and soo on for every possible combinations
+REFER TITANIC MODEL FILE FOR THE IMPLEMENTATION OF CROSS VALIDATION
+
+
+HYPER PARAMETER TUNING:
+Har model me parameters hote hain jo model ki accuracy ko affect krte hain
+jaise KNN me k ki value alag krne se alag values aati hain
+Decision trees me depth hoti hai 
+SVM me different kernals hote hain
+So choosing the best parameters or tune them for the best model accuracy is HYPER PARAMETER TUNING
+
+METHODS FOR HYPER PARAMETER TUNING:
+1:Manual Search:
+Manually different oarameters ko use krke best combination find out krna
+
+2:Grid Search CV:
+Isme kya hota hai ki jaise tumhara KNN hai uske possible parameters kya hain: K,weights(uniform, distance), metric(manhatten,euclidian)
+toh ab hum possible combinations banaynge in a grid jaise k=3 ke liye uniform aur manhatten le liya
+phir 3 ke liye distance aur euclidian le liya aise
+aur ab cross validation ki value decide krnge  e.g 5 means 5sections create krnge of dataset and sab pe accuracy nikal ke average find krnge.
+
