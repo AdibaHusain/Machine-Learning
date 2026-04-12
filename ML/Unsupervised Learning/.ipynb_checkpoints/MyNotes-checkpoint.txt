@@ -26,3 +26,6 @@ toh ab hum possible combinations banaynge in a grid jaise k=3 ke liye uniform au
 phir 3 ke liye distance aur euclidian le liya aise
 aur ab cross validation ki value decide krnge  e.g 5 means 5sections create krnge of dataset and sab pe accuracy nikal ke average find krnge.
 
+3:Randomized Search:
+Very similar to grid search cv
+only difference is that to reduce the complexity and size of the grid we randomply select some values of grid and do the corss validation
