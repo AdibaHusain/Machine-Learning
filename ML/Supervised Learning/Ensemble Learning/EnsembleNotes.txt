@@ -1,0 +1,26 @@
+ENSEMBLE LEARNING:
+ Ensemble learning is the process of combining predictions from multiple machine learning models to improve overall performance, reduce errors, and increase reliability.
+Imagine asking several experts to solve a problem. Individually, they may make mistakes, but their collective decision is usually more accurate. Ensemble learning works on the same principle.
+
+Types of Ensemble Learning:
+
+1: Stacking:
+yaha hum models ki performances ko stack krte hain.
+Combines different types of models.
+Uses a meta-learner to learn how to best combine their predictions.
+Often yields superior performance.
+Example: Combining SVM, Decision Tree, and Neural Network with Logistic Regression as a meta-model.
+
+2: Bagging:
+Based on BOOTSTRAP AGGREGATION(apne dataset se random data points nikal ke model ko dete hain,
+ho skta hai kuch points kahi models me same ho but randomness ki waja se values alag aati hain)
+Models same type ke hote hain(agar ek svm choose kra toh saare svm hi lenge)
+Phir saare models ko mean ya average nikal ke decide krte hain
+
+3:Boosting (Ada boost, GradientBoost, X G Boost)
+Boosting me phle hum first model ko pura dataset dete hain train test ke liye
+phir testing me jo errors aaye hain voh next models ko dete hain 
+aur voh model un errors ko thik krne ke koshish krta hai aur aise hi sequence me training hoti hai
+Models are trained sequentially.
+Each new model focuses on correcting the errors of the previous one.
+Reduces bias and improves accuracy.
