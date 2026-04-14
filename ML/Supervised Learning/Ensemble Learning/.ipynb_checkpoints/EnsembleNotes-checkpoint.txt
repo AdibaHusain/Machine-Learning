@@ -27,3 +27,9 @@ Reduces bias and improves accuracy.
 
 
 Stacking me jaise humne cv=5 diya aur uske phle hi data ko train test me split kr diya hai aur jo cross validation ho rha hai 5 baar voh training data ko internally split krke kr rha hai aur jo testing ke liye data rakha hai voh alag hai uspe sirf testing hogi no cv.
+
+
+BAGGING:
+We use RANDOM FOREST CLASSIFIER.
+Random forest me hum multiple decision tree banate haqin jisme har decision me alag feature selection hote hain aur har different data points aur features ke sath hum predictions krte hain
+aur aise hi jaise 100 decision tree honge toh hum sab ke liye predictions krenge aur voting hogi jo sabse zyada baar aayega wahi answer hogaa.
