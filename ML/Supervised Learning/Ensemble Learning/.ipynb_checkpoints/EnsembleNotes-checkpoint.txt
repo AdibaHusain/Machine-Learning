@@ -7,7 +7,7 @@ Types of Ensemble Learning:
 1: Stacking:
 yaha hum models ki performances ko stack krte hain.
 Combines different types of models.
-Uses a meta-learner to learn how to best combine their predictions.
+Uses a meta-learner to learn how to best combine their predictions. (meta learner jo saare models ki pred ko compare krke best result deta hai)
 Often yields superior performance.
 Example: Combining SVM, Decision Tree, and Neural Network with Logistic Regression as a meta-model.
 
@@ -24,3 +24,6 @@ aur voh model un errors ko thik krne ke koshish krta hai aur aise hi sequence me
 Models are trained sequentially.
 Each new model focuses on correcting the errors of the previous one.
 Reduces bias and improves accuracy.
+
+
+Stacking me jaise humne cv=5 diya aur uske phle hi data ko train test me split kr diya hai aur jo cross validation ho rha hai 5 baar voh training data ko internally split krke kr rha hai aur jo testing ke liye data rakha hai voh alag hai uspe sirf testing hogi no cv.
